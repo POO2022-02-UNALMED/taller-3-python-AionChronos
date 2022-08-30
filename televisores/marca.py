@@ -1,6 +1,8 @@
 class Marca:
-    def _init_(self, nombre):
-        self.nombre=nombre
+    def __init__(self, nombre):        
+        self.nombre = nombre 
     def getNombre(self):
-        return self.nombre
-#Marca acortado
+        return self._nombre
+    def setNombre(self, nombre):
+        self.nombre = nombre
+#Marca acortado y reparado
