@@ -33,4 +33,5 @@ class Control:
     def getCanal (self):
         return self.tev.getCanal()
     
-    def setCanal (self,cambio):
+    def setCanal (self,cambio): 
+        self.tele.setCanal(cambio)
